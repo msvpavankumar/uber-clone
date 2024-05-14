@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+img {
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  display: block;
+  margin: 20px 0;
+}
+
+/* Utilities */
+.logo {
+  font-size: 25px;
+}
+
+.l-heading {
+  font-size: 50px;
+  font-weight: 550;
+  line-height: 1.3;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 20px;
+  background: black;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.statement-link {
+  margin: 10px 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Main Header */
+#main-header {
+  height: 120vh;
+  background: black;
+  color: white;
+}
+
+#main-header a {
+  background: black;
+  color: white;
+}
+
+#main-header .btn-secondary {
+  display: inline-block;
+  background: white;
+  color: black;
+  margin-top: 15px;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+#main-header input {
+  width: 400px;
+  height: 50px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px 100px;
+}
+
+#main-header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#main-header .navbar .left {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#main-header .navbar .right {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#main-header .navbar .left li {
+  padding: 0 15px;
+}
+
+#main-header .navbar .right li {
+  padding: 0 15px;
+}
+
+.container {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+
+.container .left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .right-side img {
+  width: 550px;
+  height: 600px;
+}
+
+/* Sections */
+#section-1 {
+  height: 110vh;
+}
+
+#section-1 .container {
+  flex-direction: row-reverse;
+}
+
+#section-2 .l-heading {
+  color: #333;
+}
+
+#section-3 .container {
+  flex-direction: row-reverse;
+}
+
+#section-3 .l-heading {
+  font-size: 36px;
+}
+
+/*  QR Codes */
+#scanner {
+  background: whitesmoke;
+}
+
+#scanner .box {
+  padding: 80px 20px;
+  width: 1300px;
+  margin: auto;
+}
+
+#scanner .box .l-heading {
+  font-size: 36px;
+  padding-bottom: 40px;
+}
+
+.codes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.codes .code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 30px 0;
+  width: 48.5%;
+}
+
+.codes .code:hover {
+  cursor: pointer;
+}
+
+.codes .code img {
+  width: 200px;
+  padding-right: 20px;
+}
+
+.codes .code .content {
+  padding-right: 35px;
+}
+
+.codes .code .icon i {
+  overflow: hidden;
+  color: #333;
+}
+
+.codes .code .content h2,
+.codes .code .content p {
+  margin: 0;
+  padding: 0;
+}
